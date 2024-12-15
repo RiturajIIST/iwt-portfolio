@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of RITURAJ, showcasing web technologies, skills, and projects">
+    <title>RITURAJ</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="RITURAJ">
+    <meta name="keywords" content="web development, portfolio, HTML, CSS, JavaScript">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>RITURAJ's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello, I'm <strong>RITURAJ</strong>, a passionate web developer specializing in modern web technologies. I am proficient in <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark>, and I love creating interactive and dynamic websites.</p>
+            <figure>
+                <img src="photo.png" alt="RITURAJ portrait" class="profile-image">
+                <figcaption><small>It's Me !!</small></figcaption>
+            </figure>
+            <p><a href="#projects">Check out my projects below.</a></p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>HTML</strong> Structuring web content</li>
+                <li><strong>CSS</strong> Styling and layout design</li>
+                <li><strong>JavaScript</strong> Interactivity and dynamic content</li>
+                <li><strong>React</strong> Front-end frameworks</li>
+                <li><strong>Node.js</strong> Backend development</li>
+            </ul>
+            <details>
+                <summary>More about my skillset</summary>
+                <p>I enjoy learning new technologies like <strong>GraphQL</strong> and <strong>Next.js</strong>, and I am always exploring new ways to optimize performance and scalability in web applications.</p>
+            </details>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Portfolio Website</h3>
+                <p>This website is my personal portfolio, built with <em>HTML</em>, <em>CSS</em>, and <em>JavaScript</em>.</p>
+                <a href="https://rituraj.me/" target="_blank" class="button">View Live</a>
+            </article>
+            <article>
+                <h3>Tic Tac Toe Game</h3>
+                <p>An interactive Tic Tac Toe game where you can play real-time tic tac toe.</p>
+                <a href="https://game.rituraj.me" target="_blank" class="button">Play Now</a>
+            </article>
+            <article>
+                <h3>Daily Life Useful Tools</h3>
+                <p>A collection of various online tools designed to make your everyday tasks easier. Visit Now !</p>
+                <a href="https://tools.rituraj.me" target="_blank" class="button">View Live</a>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm" action="/submit_form" method="POST">
+                <fieldset>
+                    <legend>Get in touch!</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <address>
+            <p>Mail me on below E-Mail.</p>
+            <p><a href="mailto:mail@rituraj.me">mail@rituraj.me</a></p>
+        </address>
+        <p>&copy; 2024 RITURAJ. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
